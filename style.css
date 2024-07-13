@@ -1,0 +1,84 @@
+header {
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+p,
+h1 {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.active {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.ava img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card {
+    width: 800px;
+    overflow: hidden;
+}
+
+.card-img {
+    overflow: hidden;
+}
+
+.card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 !important;
+}
+
+.login-and-regis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-and-regis form {
+    margin-top: 100px;
+    width: 70%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
